@@ -1,0 +1,12 @@
+form { 
+    margin: 0 auto; 
+    width:250px;
+    }
+
+    .sec-2{
+        border:2px solid black;
+        height:350px;
+        background-color:#EFF8FF;
+        border-radius:20px;
+        padding-top:20px;
+    }

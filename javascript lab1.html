@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="calculator.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<title>Calculator</title>
+</head>
+<body>
+
+<h1 align="center">Mini-Calculator</h1>
+<div class="container">
+   
+<div class="col-8 offset-2 col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-sm-8 offset-sm-2  sec-2 border">
+<form >
+	
+	<label>First Number:</label>
+	<input type="text" name="fnum" id="fnum">
+    <br><br>
+    <label>Second Number:</label>
+	<input type="text" name="snum" id="snum">
+    <br><br>
+
+    <select id="select">
+        <option value="option" style="color: rgb(5, 19, 66);">choose option</option>
+    	<option value="add" style="color: green;">+</option>
+        <option value="sub" style="color: red;">-</option>
+        <option value="mul">*</option>
+        <option value="div" style="color: orange;">/</option>
+    </select>
+    <br><br>
+
+ <button type="button" onclick="myans()" style="color: blue;">Answer</button>
+ <br></br>
+
+ <input type="text" id="ans" readonly placeholder="Answer" style="color: red;">
+
+
+ </div>
+ </div>
+    
+</form>
+</body>
+</html>
